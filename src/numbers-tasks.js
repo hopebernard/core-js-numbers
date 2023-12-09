@@ -19,7 +19,7 @@
  *   5, 5  => 25
  */
 function getRectangleArea(/* width, height */) {
-    throw new Error('Not implemented');
+
   }
   
   function getRectangleArea(length, width) {
@@ -44,7 +44,7 @@ function getRectangleArea(/* width, height */) {
    *   0    => 0
    */
   function getCircleCircumference(/* radius */) {
-    throw new Error('Not implemented');
+
   }
   
   function getCircleCircumference(R) {
@@ -69,7 +69,7 @@ function getRectangleArea(/* width, height */) {
    *  -3, 3  => 0
    */
   function getAverage(/* value1, value2 */) {
-    throw new Error('Not implemented');
+
   }
   
   function getAverage(value1, value2) {
@@ -98,7 +98,7 @@ function getRectangleArea(/* width, height */) {
    *   (-5,0) (10,-10) => 18.027756377319946
    */
   function getDistanceBetweenPoints(/* x1, y1, x2, y2 */) {
-    throw new Error('Not implemented');
+
   }
   
   function getDistanceBetweenPoints(x1, y1, x2, y2) {
@@ -126,7 +126,7 @@ function getRectangleArea(/* width, height */) {
    *   5*x = 0         => 0
    */
   function getLinearEquationRoot(/* a, b */) {
-    throw new Error('Not implemented');
+
   }
   
   function getLinearEquationRoot(a,b) {
@@ -159,7 +159,7 @@ function getRectangleArea(/* width, height */) {
    *   (0,1) (0,1)     => 0
    */
   function getAngleBetweenVectors(/* x1, y1, x2, y2 */) {
-    throw new Error('Not implemented');
+
   }
   
   function getAngleBetweenVectors(x1,y1,x2,y2) {
@@ -190,7 +190,7 @@ function getRectangleArea(/* width, height */) {
    *     0     => 0
    */
   function getLastDigit(/* value */) {
-    throw new Error('Not implemented');
+
   }
   
   function getLastDigit(value) {
@@ -219,7 +219,7 @@ function getRectangleArea(/* width, height */) {
    * '-525.5'     => -525.5
    */
   function parseNumberFromString(/* value */) {
-    throw new Error('Not implemented');
+
   }
   
   function parseNumberFromString(value) {
@@ -248,7 +248,7 @@ function getRectangleArea(/* width, height */) {
    *   1,2,3   => 3.741657386773941
    */
   function getParallelepipedDiagonal(/* a, b, c */) {
-    throw new Error('Not implemented');
+
   }
   
   function getParallelepipedDiagonal(a, b, c) {
@@ -281,7 +281,7 @@ function getRectangleArea(/* width, height */) {
    *   1678, 3  => 2000
    */
   function roundToPowerOfTen(/* num, pow */) {
-    throw new Error('Not implemented');
+
   }
   
   function roundToPowerOfTen(num,pow) {
@@ -324,7 +324,7 @@ function getRectangleArea(/* width, height */) {
    *   17 => true
    */
   function isPrime(/* n */) {
-    throw new Error('Not implemented');
+
   }
   
   function isPrime(n) {
@@ -370,7 +370,7 @@ function getRectangleArea(/* width, height */) {
    *   toNumber(new Number(42), 0) => 42
    */
   function toNumber(/* value, def */) {
-    throw new Error('Not implemented');
+
   }
   
   function toNumber(value, def) {
@@ -401,7 +401,7 @@ function getRectangleArea(/* width, height */) {
    *   0  => 0
    */
   function getCube(/* num */) {
-    throw new Error('Not implemented');
+
   }
   
   function getCube(num){
@@ -430,7 +430,7 @@ function getRectangleArea(/* width, height */) {
    *   10 => 55
    */
   function getFibonacciNumber(/* index */) {
-    throw new Error('Not implemented');
+
   }
   
   function getFibonacciNumber(index) {
@@ -471,7 +471,7 @@ function getRectangleArea(/* width, height */) {
    *   1  => 1
    */
   function getSumToN(/* n */) {
-    throw new Error('Not implemented');
+
   }
   
   function getSumToN(n) {
@@ -502,7 +502,7 @@ function getRectangleArea(/* width, height */) {
    *   5   => 5  // 5
    */
   function getSumOfDigits(/* num */) {
-    throw new Error('Not implemented');
+
   }
   
   function getSumOfDigits(num) {
@@ -534,7 +534,7 @@ function getRectangleArea(/* width, height */) {
    *   15  => false
    */
   function isPowerOfTwo(/* num */) {
-    throw new Error('Not implemented');
+
   }
   
   function isPowerOfTwo(num) {
@@ -560,7 +560,7 @@ function getRectangleArea(/* width, height */) {
    *   Math.PI / 2 => 1
    */
   function getSine(/* num */) {
-    throw new Error('Not implemented');
+
   }
   
   function getSine(num) {
@@ -585,7 +585,7 @@ function getRectangleArea(/* width, height */) {
    * 2, 2    => '10'
    */
   function numberToStringInBase(/* number, base */) {
-    throw new Error('Not implemented');
+
   }
   
   function numberToStringInBase(number, base) {
@@ -607,7 +607,7 @@ function getRectangleArea(/* width, height */) {
    * 12345, 2    => '1.23e+4'
    */
   function toExponential(/* number, fractionDigits */) {
-    throw new Error('Not implemented');
+
   }
   
   function toExponential(number, fractionDigits) {
@@ -630,7 +630,7 @@ function getRectangleArea(/* width, height */) {
    * 12.345, 1   => '12.3'
    */
   function toFixed(/* number, fractionDigits */) {
-    throw new Error('Not implemented');
+
   }
   
   function toFixed(number, fractionDigits) {
@@ -658,7 +658,7 @@ function getRectangleArea(/* width, height */) {
    * 12.345, 4   => '12.35'
    */
   function toPrecision(/* number, precision */) {
-    throw new Error('Not implemented');
+
   }
   
   function toPrecision(number, precision) {
@@ -684,7 +684,7 @@ function getRectangleArea(/* width, height */) {
    * Number(-5)    => -5
    */
   function getNumberValue(/* number */) {
-    throw new Error('Not implemented');
+
   }
   
   function getNumberValue(number) {
@@ -713,7 +713,7 @@ function getRectangleArea(/* width, height */) {
    * '5'      => false
    */
   function isNumber(/* number */) {
-    throw new Error('Not implemented');
+
   }
   
   function isNumber(number) {
@@ -748,7 +748,7 @@ function getRectangleArea(/* width, height */) {
    * '5'  => false
    */
   function isInteger(/* number */) {
-    throw new Error('Not implemented');
+
   }
   
   function isInteger(number) {
@@ -774,7 +774,7 @@ function getRectangleArea(/* width, height */) {
    * 'abcdefgh'      => NaN
    */
   function getFloatOnString(/* str */) {
-    throw new Error('Not implemented');
+
   }
   
   function getFloatOnString(str) {
@@ -802,7 +802,7 @@ function getRectangleArea(/* width, height */) {
    * '10', 8              => 8
    */
   function getIntegerOnString(/* str, base */) {
-    throw new Error('Not implemented');
+
   }
   
   function getIntegerOnString(str, base) {
@@ -831,7 +831,7 @@ function getRectangleArea(/* width, height */) {
    * 2 ** 53  => false
    */
   function isSafeInteger(/* number */) {
-    throw new Error('Not implemented');
+
   }
   
   function isSafeInteger(number) {
@@ -857,7 +857,7 @@ function getRectangleArea(/* width, height */) {
    * -5.1 => -6
    */
   function roundToSmallestInteger(/* number */) {
-    throw new Error('Not implemented');
+
   }
   
   function roundToSmallestInteger(number) {
@@ -881,7 +881,7 @@ function getRectangleArea(/* width, height */) {
    * -5.9 => -5
    */
   function roundToLargestInteger(/* number */) {
-    throw new Error('Not implemented');
+
   }
   
   function roundToLargestInteger(number) {
@@ -906,7 +906,7 @@ function getRectangleArea(/* width, height */) {
    * -5.5 => -5
    */
   function roundToNearestInteger(/* number */) {
-    throw new Error('Not implemented');
+
   }
   
   function roundToNearestInteger(number) {
@@ -933,7 +933,7 @@ function getRectangleArea(/* width, height */) {
    * -5.5 => -5
    */
   function getIntegerPartNumber(/* number */) {
-    throw new Error('Not implemented');
+
   }
   
   function getIntegerPartNumber(number) {
@@ -961,7 +961,7 @@ function getRectangleArea(/* width, height */) {
    * 0.1, 0.2, 0.3 => 0.6
    */
   function getSumOfNumbers(/* x1, x2, x3 */) {
-    throw new Error('Not implemented');
+
   }
   
   function getSumOfNumbers(x1,x2,x3) {
@@ -987,7 +987,7 @@ function getRectangleArea(/* width, height */) {
    * 0, 5   => 5
    */
   function getMaxNumber(/* firstNumber, secondNumber */) {
-    throw new Error('Not implemented');
+
   }
   
   function getMaxNumber(firstNumber, secondNumber) {
@@ -1015,7 +1015,7 @@ function getRectangleArea(/* width, height */) {
    * -1, 1 => -1 | 0 | 1
    */
   function getRandomInteger(/* min, max */) {
-    throw new Error('Not implemented');
+
   }
   
   function getRandomInteger(min,max) {
@@ -1041,7 +1041,7 @@ function getRectangleArea(/* width, height */) {
    * 3, 4 => 5
    */
   function getHypotenuse(/* a, b */) {
-    throw new Error('Not implemented');
+
   }
   
   function getHypotenuse(a,b) {
@@ -1066,7 +1066,7 @@ function getRectangleArea(/* width, height */) {
    * 15 => 8
    */
   function getCountOfOddNumbers(/* number */) {
-    throw new Error('Not implemented');
+
   }
   
   function getCountOfOddNumbers(number){
