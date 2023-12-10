@@ -158,9 +158,10 @@ getSumToN(1);
 
 function getSumOfDigits(num) {
   let sum = 0;
-  while (num !== 0) {
-    sum += num % 10;
-    num = parseInt(num / 10);
+  let radix = num;
+  while (radix !== 0) {
+    sum += radix % 10;
+    radix = parseInt(radix / 10);
   }
   return sum;
 }
@@ -331,7 +332,7 @@ function getCountOfOddNumbers(number) {
     }
     i += 1;
   }
-  console.log(count);
+  return count;
 }
 getCountOfOddNumbers(4);
 getCountOfOddNumbers(5);
