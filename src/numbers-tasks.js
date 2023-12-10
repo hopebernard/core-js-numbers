@@ -156,14 +156,8 @@ getSumToN(5);
 getSumToN(10);
 getSumToN(1);
 
-function getSumOfDigits(num) {
-  let sum = 0;
-  let radix = num;
-  while (radix !== 0) {
-    sum += radix % 10;
-    radix = parseInt(radix / 10);
-  }
-  return sum;
+function getSumOfDigits() {
+  throw new Error('Not implemented');
 }
 
 getSumOfDigits(123);
