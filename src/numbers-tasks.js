@@ -742,7 +742,7 @@ getRandomInteger(-1, 1);
  * 3, 4 => 5
  */
 function getHypotenuse(a, b) {
-  return Math.sqrt(a ** 2 + b ** 2);
+  return Math.hypot(a, b);
 }
 
 getHypotenuse(3, 4);
