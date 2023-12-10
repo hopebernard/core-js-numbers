@@ -214,7 +214,7 @@ getParallelepipedDiagonal(1, 2, 3);
  *   1678, 3  => 2000
  */
 function roundToPowerOfTen(num, pow) {
-  return Math.round(num / num ** pow) * num ** pow;
+  return Math.round(num / 10 ** pow) * 10 ** pow;
 }
 
 roundToPowerOfTen(1234, 0);
@@ -272,7 +272,7 @@ isPrime(17);
  *   toNumber(new Number(42), 0) => 42
  */
 function toNumber(value, def) {
-  return parseFloat(value, def) || 0;
+  return parseFloat(value, def) || def;
 }
 
 toNumber(null, 0);
